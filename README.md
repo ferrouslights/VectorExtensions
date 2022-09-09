@@ -9,4 +9,7 @@ A set of Vector2, Vector3, and Vector4 extensions for added channel swapping bet
  - For a Vector3 with an xyz of (0,1,2), calling ```Vector3.xy()``` will return a Vector2 of (0,1)
  - You can also swap which channels come first, for example ```Vector3.zx()``` will return a Vector2 of (2,0)
  
+## Notes
+ - At the moment, it is not possible to mix and match between rgba and xyzw. So please utilize one or the other extension for each combination.
+ 
  Please star if you found this helpful or feel free to add feature requests for this! 
